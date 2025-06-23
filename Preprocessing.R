@@ -1,5 +1,5 @@
 #Daten einlesen
-data= read_excel(path='/Users/linusschmitz/Documents/Dokumente/BA Local for R/GermanyCountrySurvey_Final.xlsx', sheet=1)
+data= read_excel(path='excel_path', sheet=1)
 
 #Dataframe zu codebook
 codebook= t(data[1,])
